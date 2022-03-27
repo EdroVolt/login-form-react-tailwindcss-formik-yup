@@ -92,8 +92,11 @@ export default function SignUp() {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    if (Object.keys(errors).length || checkRequiredInputs())
+    if (Object.keys(errors).length || checkRequiredInputs()){
       console.log(userInfo);
+      alert('form submitted successfully')
+
+    }
   };
 
   return (
