@@ -20,6 +20,7 @@ export default function Login() {
 
   const onSubmit = (values) => {
     console.log(values);
+    alert("login successfully");
   };
 
   const formik = useFormik({
@@ -29,7 +30,7 @@ export default function Login() {
   });
 
   return (
-    <div className="container m-auto mt-56 max-w-lg">
+    <div className="container m-auto mt-16 max-w-lg">
       <div className="md:mt-10 m-2 sm:mt-0">
         <form onSubmit={formik.handleSubmit}>
           <div className="shadow overflow-hidden sm:rounded-md">
