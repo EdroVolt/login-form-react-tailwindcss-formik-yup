@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/login-form-react-tailwindcss-formik-yup/static/css/main.1b724823.css",
+    "main.js": "/login-form-react-tailwindcss-formik-yup/static/js/main.811ee7c1.js",
+    "index.html": "/login-form-react-tailwindcss-formik-yup/index.html",
+    "main.1b724823.css.map": "/login-form-react-tailwindcss-formik-yup/static/css/main.1b724823.css.map",
+    "main.811ee7c1.js.map": "/login-form-react-tailwindcss-formik-yup/static/js/main.811ee7c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b724823.css",
+    "static/js/main.811ee7c1.js"
+  ]
+}
